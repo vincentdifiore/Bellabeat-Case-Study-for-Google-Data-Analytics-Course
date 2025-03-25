@@ -24,10 +24,12 @@ Prepare
 
 Action items in this phase: 
   - Download CSVs, Rename files in desktop. 
-    - Compaire, Calories, Intensities Steps as they have both Long and Wise versions (consistency check)
+    - Attempted to run python to auto download folder w CSVs, technical issues. 
+    - Instead one by one. But first, need to fix data types in R or google sheets. 
   - Store data in BigQuery
     - Tranform data types in R first, as BigQuery doesn't allow AM/PM in time type
   - Organize, sort, filter data.
+    - - Compare Calories, Intensities, and Steps as they have both Long and Wise versions (consistency check)
   - Determine credibility of data, nuances, possible gaps in knowledge. 
 
 
