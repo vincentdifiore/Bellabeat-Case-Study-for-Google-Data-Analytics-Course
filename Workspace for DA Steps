@@ -14,13 +14,22 @@ Prepare
 - Pubicly stored through Mobius. Two months worth of data for 30 users in long format.
 - Bias not noted. Although there may be bias in that a person owning a FitBit may be more healthy as is, this will pertain to Bellabeat's audience anyways. 
 - Credibility can be verified as FitBit is a known company, and Morbius is trusted by Google. 
-- Relevant, Original, Credible, Current, Cited. 
+- Relevant, Original, Comprehensive, Current, Cited. 
   - Not current, but passes all other tests. 
 - No licensing, privacy, security, or accesdibility measures needed as data is provided publicly. 
-- Data's integrity can be trusted through program.
-- There may be data limitation issues - will touch back. 
+- Data's integrity can be trusted through program. Anonymized personal info, at least 30 participants in sample size
+- Data limitation issues: Time type in all csvs, Large data (1.1 million observations in some files). 
 
 - Data Sources used: FitBit Fitness Tracker Data (CCO: Public Domain, dataset made available through Mobius)
 
+Action items in this phase: 
+  - Download CSVs, Rename files in desktop. 
+    - Compaire, Calories, Intensities Steps as they have both Long and Wise versions (consistency check)
+  - Store data in BigQuery
+    - Tranform data types in R first, as BigQuery doesn't allow AM/PM in time type
+  - Organize, sort, filter data.
+  - Determine credibility of data, nuances, possible gaps in knowledge. 
+
+
 Process
-- 
+- Transforming done to data: Renaming, changing data types, saving new files from R to bring into SQL with correct time type, standardizing names, joining both data sets into one 2 month set. 
