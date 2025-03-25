@@ -26,12 +26,13 @@ Action items in this phase:
   - Download CSVs, Rename files in desktop. 
     - Attempted to run python to auto download folder w CSVs, technical issues. 
     - Instead one by one. But first, need to fix data types in R or google sheets. 
-  - Store data in BigQuery
-    - Tranform data types in R first, as BigQuery doesn't allow AM/PM in time type
+    - Ended up using desktop R screipt from Chatgpt that worked like a charm to transform data types in my desktop folder. Much faster than google sheets single column fix at a time. 
   - Organize, sort, filter data.
-    - - Compare Calories, Intensities, and Steps as they have both Long and Wise versions (consistency check)
+    - Compare Calories, Intensities, and Steps as they have both Long and Wide versions (consistency check)
   - Determine credibility of data, nuances, possible gaps in knowledge. 
 
 
 Process
 - Transforming done to data: Renaming, changing data types, saving new files from R to bring into SQL with correct time type, standardizing names, joining both data sets into one 2 month set. 
+- Store data in BigQuery
+  - Couldn't mass important using python3, so adding one by one to bigquery. (Using Narrow (long) when given choice between wide and narrow). 
