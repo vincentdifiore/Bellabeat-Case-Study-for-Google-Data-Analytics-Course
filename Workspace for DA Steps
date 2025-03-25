@@ -2,5 +2,25 @@ Workspace for project.
 
 Ask
 
-Plan
+Business Goal: 
+- Analyze smart device usage data in order to gain insight into how consumers use non-Bellabeat smart devices.
+- Apply insights from analysis to one Bellabeat product, mock present to stakeholders (Owners, Exec Team, Marketing Analytics Team)
+- Overall: Help guide marketing strategy for Bellabeat with high level recommendations.
 
+Prepare
+- Will be using public data to explore smart device users' daily habits. 
+
+  FitBit Fitness Tracker Data
+- Pubicly stored through Mobius. Two months worth of data for 30 users in long format.
+- Bias not noted. Although there may be bias in that a person owning a FitBit may be more healthy as is, this will pertain to Bellabeat's audience anyways. 
+- Credibility can be verified as FitBit is a known company, and Morbius is trusted by Google. 
+- Relevant, Original, Credible, Current, Cited. 
+  - Not current, but passes all other tests. 
+- No licensing, privacy, security, or accesdibility measures needed as data is provided publicly. 
+- Data's integrity can be trusted through program.
+- There may be data limitation issues - will touch back. 
+
+- Data Sources used: FitBit Fitness Tracker Data (CCO: Public Domain, dataset made available through Mobius)
+
+Process
+- 
