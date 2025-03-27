@@ -14,7 +14,7 @@ Prepare
 - Pubicly stored through Mobius. Two months worth of data for 30 users in long format.
 - Bias not noted. Although there may be bias in that a person owning a FitBit may be more healthy as is, this will pertain to Bellabeat's audience anyways. 
 - Credibility can be verified as FitBit is a known company, and Morbius is trusted by Google. 
-- Relevant, Original, Comprehensive, Current, Cited. 
+- ROCCC: Relevant, Original, Comprehensive, Current, Cited? 
   - Not current, but passes all other tests. 
 - No licensing, privacy, security, or accesdibility measures needed as data is provided publicly. 
 - Data's integrity can be trusted through program. Anonymized personal info, at least 30 participants in sample size
@@ -36,3 +36,10 @@ Process
 - Transforming done to data: Renaming, changing data types, saving new files from R to bring into SQL with correct time type, standardizing names, joining both data sets into one 2 month set. 
 - Store data in BigQuery
   - Couldn't mass important using python3, so adding one by one to bigquery. (Using Narrow (long) when given choice between wide and narrow). 
+- March 26th, 2025: I have decided to clean, organize, filter, and transform all my data in R instead, as it is proving to process the larg amounts of data easier. 
+  While looking at the data, I have checked for nulls and NAs (skimr, janitor, here, dplyr, tidyverse all very helpful)
+  I have been able to filter and graph my data to check for outliers and trends. 
+  Upon cleaning some of the datasets (Monthly Activity tables for either month), I have foud that there is significantly more data in tbe second month than the first. 
+  Using the first month's data may skew results. I believe I may only focus on second month. 
+- I believe next steps will be deciding which datsets to narrow in on, do final transformations, make some action plans for analysis, and make graphs in R and tableau. 
+- I can start to cut out datasets, don't think I'll be needing all of it. And if I do, I can always come back. 
