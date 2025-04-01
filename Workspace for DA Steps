@@ -66,11 +66,13 @@ To do for analysis:
   - calories burned/total steps/intensity by day of week
   - Did highly active users burn more calories/sleep better?
   - Do more steps lead to better sleep quality?
+  - These datasets work well in clusters. Can separate users into most active/most calories burned --> do they also get better sleep? 
+      - **Upon review, going to stay away from sleep as there is pretty even slepe across board**
   - Do more steps = less stress? Need more data, this could be marketable. 
   - Position spring as a fitness companion if more active users drink more water.
     - Memebership: Personalized coaching can help with consistency
-  - These datasets work well in clusters. Can separate users into most active/most calories burned --> do they also get better sleep? 
   - Less of a timeline dataset, more of a correlation dataset. 
+  - Get weekdays to see when most active days are, could encourage users to complete challenges on non-active days to engage activity. 
 
 Tableau:
 - When uploading to tableau, date time didn't upload correctly for midnight (00:00:00 shows up as NULL for all dates containing)
